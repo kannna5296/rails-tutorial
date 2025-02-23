@@ -16,6 +16,7 @@ gem "puma",            "6.6.0" #RenderでPuma 5 is not compatible with Rack 3, p
 gem "bootsnap",        "1.16.0", require: false
 gem "sqlite3",         "1.6.1"
 gem "concurrent-ruby", "1.3.4"
+gem "mutex_m",         "0.3.0"
 group :development, :test do
   gem 'reline', '0.5.10'
   gem "debug",   "1.7.1", platforms: %i[ mri mingw x64_mingw ]
