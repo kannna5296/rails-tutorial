@@ -22,7 +22,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "web-console",         "4.2.0"
+  gem "web-console",         "4.2.1"
   gem "solargraph",          "0.51.1"
   gem "irb",                 "1.13.0" #ここだけrailsチュートリアルのままだとbundle installできなかったので10→13にした
   gem "repl_type_completor", "0.1.2"
